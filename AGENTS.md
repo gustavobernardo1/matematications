@@ -10,3 +10,10 @@ This is a learning-first workspace. The author owns the scientific decisions and
 - Record data provenance, reproducible commands, versions, seeds, failure cases, limitations and AI assistance.
 - Never mark learning milestones complete without the author's evidence. Ask transfer questions and review independent reasoning.
 - Do not duplicate implementations across repositories; link the canonical study or application.
+
+## Repository boundaries
+
+- matematications is the canonical learning workspace for pure and applied mathematics, computation, statistics, optimization and scientific machine learning. Use the existing topic folders and add new categories only when a real study needs them.
+- Keep method-focused comparisons, numerical tests and paper reproductions here. Independent multi-model evaluations with a comparative research question belong in metron.
+- Keep domain-specific systems in their application repositories and open-conjecture discovery in conjectura. Cross-link rather than copy implementations.
+- The former scientific-ml repository is a historical source, not a separate active workspace.

@@ -1,26 +1,36 @@
-<p align="center"><strong>English</strong> | <a href="README.pt-BR.md">Português (Brasil)</a></p>
+**English** · [Português](README.pt-BR.md)
 
 # matematications
 
-Numerical algorithms, mathematical optimization and uncertainty quantification through reproducible computational investigations.
+Explorations in mathematics and computation — a learning-first collection of mathematical ideas, proofs, methods, numerical experiments and scientific machine learning.
 
-**Status:** initialized; studies are planned, not completed.
+**Status:** initial study infrastructure; no completed research or experiments claimed.
 
 ## Study areas
-- [numerical linear algebra](numerical-linear-algebra/README.md): Conditioning, factorizations and solvers.
-- [numerical analysis](numerical-analysis/README.md): Approximation, discretization, stability and error.
-- [dynamical systems](dynamical-systems/README.md): State-space models, integration and stability.
-- [optimization](optimization/README.md): Linear, convex, nonlinear and stochastic optimization.
-- [probability](probability/README.md): Random variables, sampling and dependence.
-- [uncertainty quantification](uncertainty-quantification/README.md): Sensitivity, propagation and calibration.
-- [computational experiments](computational-experiments/README.md): Cross-cutting benchmarks and reproducibility.
-- [references](references/README.md): Curated readings.
 
-## Workflow
+- [Pure mathematics](pure-mathematics/README.md)
+- [Numerical linear algebra](numerical-linear-algebra/README.md)
+- [Numerical analysis](numerical-analysis/README.md)
+- [Dynamical systems](dynamical-systems/README.md)
+- [Optimization](optimization/README.md)
+- [Probability and statistics](probability/README.md)
+- [Uncertainty quantification](uncertainty-quantification/README.md)
+- [Scientific machine learning](scientific-machine-learning/README.md)
+- [Mathematical visualizations](mathematical-visualizations/README.md)
+- [Paper reproductions](paper-reproductions/README.md)
+- [Computational experiments](computational-experiments/README.md)
+- [References](references/README.md)
+
+## Scope
+
+Understand, derive, implement and validate mathematical methods. Method-focused experiments and reproductions live here; independent comparative model evaluations belong in [metron](https://github.com/gustavobernardo1/metron), and discovery-oriented investigations of open conjectures belong in [conjectura](https://github.com/gustavobernardo1/conjectura).
+
+The former scientific-ml study areas are integrated into this repository. See [migration record](MIGRATION.md).
+
 Problem → targeted theory → independent exercise → implementation → baseline comparison → validation → transfer.
 
-Start with the [roadmap](ROADMAP.md) and [study template](templates/study-template.md). AI assistants follow [AGENTS.md](AGENTS.md).
+See [study directions](ROADMAP.md), [study template](templates/study-template.md) and [agent instructions](AGENTS.md).
 
-Use Python 3.11+ and a virtual environment. Install the baseline tools with `python -m pip install -r requirements.txt`. Study-specific dependencies and versions belong in each study's reproduction instructions.
+Python 3.11+; install baseline tools in a virtual environment with `python -m pip install -r requirements.txt`. Record study-specific dependencies and versions in reproduction instructions.
 
 Author: Gustavo Bernardo Brito · [Profile](https://github.com/gustavobernardo1).
