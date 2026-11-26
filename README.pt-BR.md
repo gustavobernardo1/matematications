@@ -1,6 +1,6 @@
 <p align="center"><a href="README.md">English</a> | <strong>Português (Brasil)</strong></p>
 
-# Matemática Computacional
+# matematications
 
 Algoritmos numéricos, otimização matemática e quantificação de incertezas por meio de investigações computacionais reprodutíveis.
 
